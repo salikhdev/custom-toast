@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/done_button"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="#673AB7"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/error_button"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="#673AB7"
+            android:text="Error"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/warning_button"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="#673AB7"
+            android:text="Warning"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/costume_button"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="#673AB7"
+            android:text="Costume"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
