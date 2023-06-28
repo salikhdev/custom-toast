@@ -45,7 +45,7 @@ CostumeToast.`costumeToast( msg , icon , background ,  activity )` **->**  For y
 >2 Step. Add the code to your  `build.gradle` file
 ```
 	dependencies {
-	        implementation 'com.github.salikhdev:custom-toast:Tag'
+	        implementation 'com.github.salikhdev:custom-toast:1.0.0'
 	}
 ```
 
